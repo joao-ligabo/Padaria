@@ -157,13 +157,13 @@
   <!-- ===== Cabeçalho ===== -->
   <header>
     <h1>Padaria Três Irmãos</h1>
-    <img src="img/logo-removebg-preview.png" alt="Logo da Padaria Três Irmãos">
+    <img src="{{ asset('img/logo-removebg-preview.png') }}" alt="Logo">
     <nav>
       <ul>
         <li><a href="#home">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="/sobre">Sobre</a></li>
         <li><a href="#produtos">Produtos</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="/form">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -178,59 +178,59 @@
     <section id="sobre">
       <h2>Sobre Nós</h2>
       <p>A Padaria Três Irmãos foi criada por Neil, Miguel e Ligabo, três irmãos alemães que trouxeram para o centro de Cruzeiro o sabor autêntico de sua tradição. Unimos receitas clássicas e o carinho brasileiro para oferecer pães, bolos e doces feitos com qualidade e dedicação. Aqui, cada fornada é mais que comida: é família, cultura e aconchego.</p>
-      <img src="img/nós.png" alt="Fundadores da Padaria Três Irmãos">
+      <img src="{{ asset('img/nos.png') }}" alt="Fundadores da Padaria Três Irmãos">
     </section>
 
     <section id="produtos">
       <h2>Nossos Produtos</h2>
       <div class="produtos-grid">
         <div class="produto">
-          <img src="img/pão_frances-removebg-preview.png" alt="Pão Francês">
+          <img src="{{ asset('img/pao_frances-removebg-preview.png') }}" alt="Pão Francês">
           <h3>Pão Francês</h3>
           <p>R$ 5,00</p>
         </div>
         <div class="produto">
-          <img src="img/pao_de_queijo-removebg-preview.png" alt="Pão de Queijo">
+          <img src="{{ asset('img/pao_de_queijo-removebg-preview.png') }}" alt="Pão de Queijo">
           <h3>Pão de Queijo</h3>
           <p>R$ 6,00</p>
         </div>
         <div class="produto">
-          <img src="img/bolo_de_chocolate-removebg-preview.png" alt="Bolo de Chocolate">
+          <img src="{{ asset('img/bolo_de_chocolate-removebg-preview.png') }}" alt="Bolo de Chocolate">
           <h3>Bolo de Chocolate</h3>
           <p>R$ 8,00</p>
         </div>
         <div class="produto">
-          <img src="img/sonho-removebg-preview.png" alt="Sonho">
+          <img src="{{ asset('img/sonho-removebg-preview.png') }}" alt="Sonho">
           <h3>Sonho</h3>
           <p>R$ 4,00</p>
         </div>
         <div class="produto">
-          <img src="img/cappucino-removebg-preview.png" alt="Cappucino">
+          <img src="{{ asset('img/cappucino-removebg-preview.png') }}" alt="Cappucino">
           <h3>Cappucino</h3>
           <p>R$ 7,00</p>
         </div>
         <div class="produto">
-          <img src="img/presunto-removebg-preview.png" alt="Presunto">
+          <img src="{{ asset('img/presunto-removebg-preview.png') }}" alt="Presunto">
           <h3>Presunto</h3>
           <p>R$ 5,00</p>
         </div>
         <div class="produto">
-          <img src="img/queijo_prato-removebg-preview.png" alt="Queijo Prato">
+          <img src="{{ asset('img/queijo_prato-removebg-preview.png') }}" alt="Queijo Prato">
           <h3>Queijo Prato</h3>
           <p>R$ 6,00</p>
         </div>
         <div class="produto">
-          <img src="img/empada-removebg-preview.png" alt="Empada">
+          <img src="{{ asset('img/empada-removebg-preview.png') }}" alt="Empada">
           <h3>Empada</h3>
           <p>R$ 5,00</p>
         </div>
         <div class="produto">
-          <img src="img/coxinha-removebg-preview.png" alt="Coxinha">
+          <img src="{{ asset('img/coxinha-removebg-preview.png') }}" alt="Coxinha">
           <h3>Coxinha</h3>
           <p>R$ 6,00</p>
         </div>
         <div class="produto">
-          <img src="img/croissant-removebg-preview.png" alt="Croissant">
+          <img src="{{ asset('img/croissant-removebg-preview.png') }}" alt="Croissant">
           <h3>Croissant</h3>
           <p>R$ 7,00</p>
         </div>
